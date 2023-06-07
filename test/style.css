@@ -1,0 +1,47 @@
+body {
+    background-image: url('/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1
+{
+    text-align: center;
+    color: black;
+    font-weight:bolder;
+}
+#keys
+{
+    height: auto;
+    width: auto;
+    border:2px solid black;
+    display: flex;
+    background-color: wheat;
+}
+.key
+{
+    border: 2px solid black;
+    height:100px;
+    width: 100px;
+    margin:25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.span1
+{
+    font-size: 40px;
+    color: white;
+}
+.span2
+{
+    color: yellow;
+}
+.key:active {
+    background-color: rgba(255, 64, 0, 0.811);
+    color: #ffffff;
+  }
